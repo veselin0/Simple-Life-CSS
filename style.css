@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+}
+
+/* typography */
+
+h1 {
+  font-width: 400;
+  color: darkgoldenrod;
+  font-size: 3rem;
+  margin: 0;
+
+}
+
+.subtitle {
+  font-weight: 700;
+  color: darksalmon;
+  font-size: .75rem;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/* Layout */
+
+header {
+  text-align: center;
+  background-color: antiquewhite;
+  padding: 2em 0;
+}
+
+/* Navigation */
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 1em;
+}
+
+nav a {
+  text-decoration: none;
+  color: darkorange;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: .25em 0;
+}
+
+nav a:hover,
+nav a:focus {
+  color: aqua;
+}
+
+.current-page {
+  border-bottom: 1px solid darkorange;
+}
+
+.current-page:hover {
+  color: darkorange;
+}
+
